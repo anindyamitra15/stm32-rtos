@@ -253,6 +253,7 @@ void StartBlink02(void *argument) {
 		HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_1);
 		osDelay(200);
 	}
+	osThreadTerminate(NULL);
 	/* USER CODE END StartBlink02 */
 }
 
