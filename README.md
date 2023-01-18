@@ -10,7 +10,7 @@ Performing several types of tasks on RTOS on STM32F103C8T6.
 
 1. [CMSIS RTOS V2](./cmsisv2-intro/): STM32 supports CMSIS V2. RTOS is used. Two LEDs connected to Pin B12 and Pin A1 respectively, are controlled from two different threads of RTOS.
 
-![Tasks](./cmsisv2-intro/Results/tasks.png)
+![Tasks](./cmsisv2-intro/Results/demo-optimised.gif)
 <br>*[Two RTOS tasks which runs concurrently]*
 
 2. [UART with RTOS](./serial_monitor/): Using UART on RTOS. This project is under development.
