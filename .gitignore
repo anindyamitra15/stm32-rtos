@@ -38,5 +38,4 @@
 [Dd]ebug
 *.launch
 Drivers
-Middlewares/
 **/Middlewares/Third_Party
